@@ -1,0 +1,24 @@
+Step-1 
+//Fonts:
+*Poppins, *Raleway 
+
+Step-2: 
+//Colors:
+ #DA722C;
+ #E8F7FB;
+ #023047;
+ #070917;
+ #6F7DFB;
+ #057ADA;
+
+Step-3:
+//Images and Icons export
+
+Step-4:
+//Exporting fonts to html documents
+
+Step-5: ===>HTML 
+Step-6: ===>CSS 
+Step-7: ===>CrossCheck design 
+
+

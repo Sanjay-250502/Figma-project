@@ -1,0 +1,189 @@
+/* Predefined CSS color */
+:root{
+    --orange-color: #DA722C;
+    --Dark-blue-color: #023047;
+    --Dark-color: #070917;
+    --light-color: #E8F7FB;
+    --light-blue-color: #6F7DFB;
+}
+/* box-sizing: border-box==> It is used to create padding and border while giving the width */
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+.wrapper{
+    max-width: 1366px;
+    margin: 0;
+}
+
+/* buttons styling */
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    position: relative;
+}
+.btn.dark{
+    background-color: var(--Dark-blue-color)
+}
+.btn.light{
+    background-color: var(--orange-color)
+}
+.btn.enrol-icon::before{
+    content: url(Images/enroll-icon.svg);
+    position: absolute;
+    top: 35%;
+    left: 30px;
+    margin-left: -5px;
+    transform: translate-Y(-50%);
+}
+
+/* Header part styling */
+header{
+    background: linear-gradient(180deg , #6F7DFB 0%, #26308c 100%);
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;
+    width: 100%;
+}
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: #fff;
+    width: 20%;
+    margin-left: 10px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    list-style: none; 
+    
+}
+ul,li,a,nav{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+}
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    position: relative;
+}
+.left{
+    width: 45%;
+    color: var(--light-color);
+    position: absolute;
+    top: 10px;
+    left: 75px;
+}
+.left h1{
+    font-size: 40px;
+}
+.left p{
+    width: 80%;
+    font-size: 16px;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+.right{
+    position: absolute;
+    width: 40%;
+    top: 12px;
+    right: -50px;
+
+}
+.right img{
+    width: 347px;
+    height: 100%;
+}
+.enrol-icon{
+    padding: 20px 50px;
+}
+
+.achievement-card .content{
+    padding: 8px 32px;
+    background-color: var(--light-color);
+    border-radius: 24px;
+    color: var(--Dark-color);
+    z-index: 100;
+    box-shadow: rgba(15, 3, 79, 0.15) 10.95px 10.95px 0px;
+}
+.content h3{
+    text-align: center;
+    margin-top: -5px;
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--Dark-color);
+}
+.content p{
+    font-family: 'Poppins', sans-serif;
+     font-size: 16px;
+     font-weight: 400;
+     margin-top: -30px;
+    text-align: center;
+
+}
+
+.Students-Enrolled{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    
+}
+.Overall-rating{
+    position: absolute;
+    top: 282px;
+    left: 45%;
+}
+.Overall-rating .content h3{
+    margin-top: 5px;
+    margin-left: 30px;
+}
+.rating{
+    display: flex;
+    gap: 10px;
+}
+.rating img{
+    margin-top: -20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
